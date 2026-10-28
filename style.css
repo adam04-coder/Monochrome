@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20%;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+}
+
+section{
+    padding: 60px 20%;
+}
+
+.bouton {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.bouton-blanc {
+    background-color: white;
+    color: black;
+
+}
+
+header {
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 30px
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/bg-image-hero.webp);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px 20%;
+}
+
+.hero h1, 
+.hero p {
+    max-width: 500px;
+}
+
+.services {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.confiance {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/bg-image-2.webp);
+    background-size: cover;
+    background-position: center;
+    color: white;
+... (74 lignes restantes)
